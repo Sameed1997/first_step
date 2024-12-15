@@ -1,0 +1,13 @@
+The refactor code is good enough. Well structured and well indented. There are somethings to notice :
+
+BookingReposiotry.php
+
+1) Validation is totally missing. I added it.
+2) Try catch blocks are missing. I added in some on the functions in BookingReposiotry.php
+3) The functions are returning data on conditions but when the conditions are not met there is no return statement.
+4) I would use Switch Case statements instead of If/else.
+
+BookingController.php
+1) Validation is totally missing.
+2) Try catch blocks are totally missing.
+3) I would use Switch Case statements instead of If/else.
